@@ -1,0 +1,16 @@
+Day 1: 7/9/17
+1. install python 3.6 many days ago. 
+2. figure out how to install package "Scrapy" and succeed. 
+3. install microsoft visual c++ because it is a requirement of "Scrapy".
+4. uninstall python 3.6 and install python 2.7, because 2.7 is very popular in online tutorial.
+5. learn how to run python code from notepad++.
+6. try an online tutorial but get error.
+
+Day 2: 7/10/17
+1. Successfully scrape data using Scrapy in Python with the help of a tutorial (https://www.youtube.com/watch?v=1EFnX1UkXVU)
+2. Try to use similar code to scrape data from http://www.basketball-reference.com/. Have not succeed.
+
+Day 3: 7/17/17
+1. After a weeks struggle, finally found a youtube example scraping from basketball-reference.com. Repeated it and succeeded.
+2. Found more examples to scrape nba data from espn.com/nba/ and stat.nba.com, seems like a popular topic out there.
+3. Creat a github repository called "ScrapingNBA" and will use this for future scraping.
