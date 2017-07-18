@@ -11,6 +11,8 @@ Day 2: 7/10/17
 2. Try to use similar code to scrape data from http://www.basketball-reference.com/. Have not succeed.
 
 Day 3: 7/17/17
-1. After a weeks struggle, finally found a youtube example scraping from basketball-reference.com. Repeated it and succeeded.
+1. After a weeks struggle, finally found a youtube example scraping from basketball-reference.com using beautifulsoup4. Repeated it and succeeded. Had some issues and errors regarding python versions but was able to fix them by searching google. Give up scrapy? 
 2. Found more examples to scrape nba data from espn.com/nba/ and stat.nba.com, seems like a popular topic out there.
-3. Creat a github repository called "ScrapingNBA" and will use this for future scraping.
+3. Decided to use sublime text 3 for script editor, so far so good.
+3. Created a github repository called "ScrapingNBA" and will use this for future scraping.
+Way to go.....
