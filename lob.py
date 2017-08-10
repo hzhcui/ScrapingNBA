@@ -12,10 +12,10 @@ def make_soup(url):
 
 playerdatasaved=""
 soup = make_soup("http://www.landofbasketball.com/all_time_leaders/points_total_career_season.htm")
-for record in soup.find_all('tr'):
+for record in soup.find_all('tr')[2:]:
 	playerdata=""
 	for data in record.find_all(['th','td']):
-		playerdata=playerdata+","+data.text
+		playerdata=playerdata+" "+data.text
 	if len(playerdata)!=0:
 		playerdatasaved=playerdatasaved+"\n"+playerdata[1:]
 

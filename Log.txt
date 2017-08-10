@@ -11,8 +11,26 @@ Day 2: 7/10/17
 2. Try to use similar code to scrape data from http://www.basketball-reference.com/. Have not succeed.
 
 Day 3: 7/17/17
-1. After a weeks struggle, finally found a youtube example scraping from basketball-reference.com using beautifulsoup4. Repeated it and succeeded. Had some issues and errors regarding python versions but was able to fix them by searching google. Give up scrapy? 
-2. Found more examples to scrape nba data from espn.com/nba/ and stat.nba.com, seems like a popular topic out there.
-3. Decided to use sublime text 3 for script editor, so far so good.
-3. Created a github repository called "ScrapingNBA" and will use this for future scraping.
+1. After a weeks struggle, finally find a youtube example scraping from basketball-reference.com using beautifulsoup4. Repeat it and succeed. Had some issues and errors regarding python versions but was able to fix them by searching google. Give up scrapy? 
+2. Find more examples to scrape nba data from espn.com/nba/ and stat.nba.com, seems like a popular topic out there.
+3. Decide to use sublime text 3 for script editor, so far so good.
+3. Create a github repository called "ScrapingNBA" and will use this for future scraping.
 Way to go.....
+
+Day 4: 8/8/17
+1. Want to scrape tables from landofbasketball.com, a nice website to look up all-time rankings, maybe a good guidance to my own website.
+2. Followe the http://savvastjortjoglou.com/nba-draft-part01-scraping.html step by step to scarpe from LOB
+2. Revise the python code and scrape a table of "points total career season' from landofbasketball.com
+3. Understand that pandas can be used to manipulate data in python.
+
+Day 5: 8/9/17
+1. Try to scrape multiple pages for point per game, per season, post seasons and so on, and realize that the columns in each table are different, it is not like multiple pages by different years.
+2. Suddenly realize that if I want to make my own website, I can't scrape every table I want to make from existing website. What I need to do is to have an original copy of all the data of games, teams and players and do the stats on them and make the table. So I decide to scrape espn.go.com/nba/teams/...
+3. Followe http://danielfrg.com/blog/2013/04/01/nba-scraping-data/ and revised the python code because some of the codes don't work, maybe the website has been changed after the author wrote the blog.
+4. Learne some methods to trouble-shooting the python code from Dong.
+
+Day 5: 8/10/17
+1. Scraping multiple page could be a challange, there will be a lot of codes needs to be revised. Teams change, players name change, etc.
+2. Find out that espn.go.com/nba/ only have data from 2002 to present, which is a problem, because I want to get the stats from the very beginning of NBA.
+3. So maybe find another instruction to scrape from http://stats.nba.com/ or change my current code.
+4. The whole picture of making a website is still not clear.
