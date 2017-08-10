@@ -1,0 +1,8 @@
+Git steps:
+
+cd\
+cd users/hzhcui/desktop/scrapingnba
+git status
+git add -A
+git commit -m "08/10/17"
+git push
